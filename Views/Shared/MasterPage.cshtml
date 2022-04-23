@@ -9,7 +9,6 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    @RenderSection("HelloWorld", required: false)
 
     @if (IsSectionDefined("GoodbyeWorld"))
     {
@@ -17,7 +16,8 @@
     }
     else
     {
-        <h1>По умолчанию</h1>
+        @RenderBody()
+        <h1>default</h1>
     }
 </body>
 </html>

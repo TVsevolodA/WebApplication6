@@ -166,6 +166,7 @@
     <Content Include="Views\Home\Page_1.cshtml" />
     <Content Include="Views\Home\Page_2.cshtml" />
     <Content Include="Views\Shared\MasterPage.cshtml" />
+    <Content Include="Views\Home\Page_3.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

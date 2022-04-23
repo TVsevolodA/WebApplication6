@@ -19,6 +19,12 @@ namespace WebApplication6.Controllers
             return View();
         }
 
+        public ActionResult Page_3()
+        {
+            return View();
+        }
+        
+
         public ActionResult Error()
         {
             Response.StatusCode = 404;
